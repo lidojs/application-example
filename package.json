@@ -1,73 +1,74 @@
 {
-  "name": "design-src",
-  "version": "0.0.1",
-  "type": "module",
-  "license": "UNLICENSED",
-  "private": true,
-  "scripts": {
-    "start": "vite",
-    "build": "npm run build:source",
-    "build:source": "vite build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lidojs/canva-clone.git"
-  },
-  "homepage": "https://lidojs.com",
-  "devDependencies": {
-    "@babel/preset-react": "^7.22.3",
-    "@emotion/babel-plugin": "^11.11.0",
-    "@types/color": "^3.0.3",
-    "@types/dompurify": "^3.0.2",
-    "@types/lodash": "^4.14.194",
-    "@types/react": "^18.0.27",
-    "@types/react-color": "^3.0.6",
-    "@types/react-dom": "^18.2.4",
-    "@types/uuid": "^9.0.1",
-    "eslint": "^8.41.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "tslib": "^2.3.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.0.4",
-    "vite-plugin-eslint": "^1.8.1",
-    "rimraf": "^5.0.1"
-  },
-  "dependencies": {
-    "@duyank/icons": "0.0.19",
-    "@emotion/css": "^11.11.0",
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0",
-    "@lidojs/core": "^0.0.3",
-    "@lidojs/editor": "^0.0.6",
-    "@lidojs/utils": "^0.0.1",
-    "axios": "^1.4.0",
-    "color": "^4.2.3",
-    "dompurify": "^3.0.3",
-    "html-to-image": "^1.11.11",
-    "lodash": "^4.17.21",
-    "prettier": "^2.8.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-use": "^17.4.0",
-    "write-json-file": "^5.0.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "design-src",
+    "version": "0.0.1",
+    "type": "module",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "start": "vite",
+        "build": "npm run build:source",
+        "build:source": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lidojs/canva-clone.git"
+    },
+    "homepage": "https://lidojs.com",
+    "devDependencies": {
+        "@babel/preset-react": "^7.22.3",
+        "@emotion/babel-plugin": "^11.11.0",
+        "@types/color": "^3.0.3",
+        "@types/dompurify": "^3.0.2",
+        "@types/lodash": "^4.14.194",
+        "@types/react": "^18.0.27",
+        "@types/react-color": "^3.0.6",
+        "@types/react-dom": "^18.2.4",
+        "@types/uuid": "^9.0.1",
+        "eslint": "^8.41.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-react-app": "^7.0.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "tslib": "^2.3.0",
+        "typescript": "^5.1.6",
+        "vite": "^4.0.4",
+        "vite-plugin-eslint": "^1.8.1",
+        "rimraf": "^5.0.1"
+    },
+    "dependencies": {
+        "@duyank/icons": "0.0.19",
+        "@emotion/css": "^11.11.0",
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@lidojs/core": "0.0.4",
+        "@lidojs/editor": "0.0.6",
+        "@lidojs/utils": "0.0.1",
+        "@lidojs/screen": "0.0.2",
+        "axios": "^1.4.0",
+        "color": "^4.2.3",
+        "dompurify": "^3.0.3",
+        "html-to-image": "^1.11.11",
+        "lodash": "^4.17.21",
+        "prettier": "^2.8.8",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-use": "^17.4.0",
+        "write-json-file": "^5.0.0"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
