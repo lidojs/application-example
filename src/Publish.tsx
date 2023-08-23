@@ -1,10 +1,10 @@
 import React from 'react';
 import { Frame } from '@lidojs/screen';
-import { data } from '../data';
+import { fulldata } from '../data';
 import { getPageSize } from '@lidojs/core';
 
 const Publish = () => {
-    const size = getPageSize(data);
+    const size = getPageSize(fulldata);
     return (
         <div
             css={{
@@ -15,7 +15,7 @@ const Publish = () => {
                 justifyContent: 'center',
             }}
         >
-            <Frame width={size.width} height={size.height} data={data} />
+            <Frame width={size.width} height={size.height} data={fulldata} />
         </div>
     );
 };

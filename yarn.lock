@@ -1442,12 +1442,12 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lidojs/core@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@lidojs/core/-/core-0.0.3.tgz#ba80a67f4a937a3ae50c9658321bef64c1dec252"
-  integrity sha512-zE2YH7D1Nf6GE6ussmxO4jXHoyFd9J/cUPlMM9oTG+6jiO6Whw1fL/SMjSKqMITdPFDz6b6Mfr42kVXolR0Y3Q==
+"@lidojs/core@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@lidojs/core/-/core-0.0.4.tgz#a2f17e87963afb6da21c3479e75543c4caee3166"
+  integrity sha512-K28laYcydJNu2m/0L711SpFIrsPMnjSUMK/P5fm8NUbiwQHT31RzlyPGM2vJ9cwMVIkcFq3GL0XzrRxhL1BjUQ==
 
-"@lidojs/editor@^0.0.6":
+"@lidojs/editor@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@lidojs/editor/-/editor-0.0.6.tgz#2f613022e992909f3862a2f36619fea86c0fc548"
   integrity sha512-dTaoTicTMWJD6iERIkmiaakh/Nwsg9T6IQ1ulxOq0QMldup1N5uUxeCV/0o+SS0HsJlRo2pvzd4lvH6JDaB4AQ==
@@ -1466,12 +1466,12 @@
     react-device-detect "^2.2.3"
     uuid "^9.0.0"
 
-"@lidojs/screen@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@lidojs/screen/-/screen-0.0.1.tgz#c6b1d7ca7ce604367a129f67d979e7298e4178bb"
-  integrity sha512-ofr4Ic3j3opKgaSMLuPeW1VtB9JXTAJklXNMFyI6khIAAmd3NAaOHrdEMpghwAUa+PxH0+G+E3ezIv4QKXAZ1Q==
+"@lidojs/screen@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@lidojs/screen/-/screen-0.0.2.tgz#ff9f9ae8ae27b8470d19af647305242e1ee7357b"
+  integrity sha512-cFBlUkHXRAEWk+7BspJ2rXoR7QZDpKVeTQigdTbM8CTDHEdsI8CkekWWdMwQVxvuFCg5OkM3X/PKF0q2m56GNQ==
 
-"@lidojs/utils@^0.0.1":
+"@lidojs/utils@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@lidojs/utils/-/utils-0.0.1.tgz#ddfd39a2ea1830a783d993da782cdba940f83522"
   integrity sha512-jZ7b3n5739llaF+pCDYB/PeQcmNOipeq+/AqjYin7NOMK9FfZhNS+h5bcpmslJQt+dNc4Oq8K4dFug340wDTIQ==
