@@ -1,17 +1,15 @@
 import React, { ChangeEvent, forwardRef, ForwardRefRenderFunction, useRef } from 'react';
 import PlayCircleIcon from '@duyank/icons/regular/PlayCircle';
 import { downloadObjectAsJson } from '../utils/download';
-import { serialize, useEditor } from '@lidojs/editor';
+import { useEditor } from '@lidojs/editor';
 interface HeaderLayoutProps {
     openPreview: () => void;
 }
 const HeaderLayout: ForwardRefRenderFunction<HTMLDivElement, HeaderLayoutProps> = ({ openPreview }, ref) => {
     const uploadRef = useRef<HTMLInputElement>(null);
-    const { actions, pages } = useEditor((state) => ({
-        pages: state.pages,
-    }));
+    const { actions, query } = useEditor();
     const handleExport = () => {
-        downloadObjectAsJson('file', serialize(pages));
+        downloadObjectAsJson('file', query.serialize());
     };
 
     const handleImport = (e: ChangeEvent<HTMLInputElement>) => {
