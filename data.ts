@@ -3266,7 +3266,7 @@ export const fulldata: SerializedPage[] = [
                     resolvedName: 'TextLayer',
                 },
                 props: {
-                    text: '<p style="font-family: Armata; color: rgb(0, 0, 0); font-size: 36px">With Liquid editor</p>',
+                    text: '<p style="font-family: Armata; color: rgb(0, 0, 0); font-size: 36px">With Liquid2 editor</p>',
                     position: {
                         x: 7.339652448657148,
                         y: 272.92733017377566,
@@ -3559,7 +3559,7 @@ export const fulldata: SerializedPage[] = [
                     resolvedName: 'TextLayer',
                 },
                 props: {
-                    text: '<p style="font-family: Joti One; color: rgb(10, 46, 68); font-size: 180px; text-align: center">Summer</p>',
+                    text: '',
                     position: {
                         x: 411.4739336492891,
                         y: 459.521327014218,

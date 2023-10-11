@@ -2,6 +2,7 @@ import React, { ChangeEvent, forwardRef, ForwardRefRenderFunction, useRef } from
 import PlayCircleIcon from '@duyank/icons/regular/PlayCircle';
 import { downloadObjectAsJson } from '../utils/download';
 import { useEditor } from '@lidojs/editor';
+import Logo from '../../public/assets/logo.svg';
 interface HeaderLayoutProps {
     openPreview: () => void;
 }
@@ -45,7 +46,7 @@ const HeaderLayout: ForwardRefRenderFunction<HTMLDivElement, HeaderLayoutProps> 
                 }}
             >
                 <div css={{ color: 'white', height: 46 }}>
-                    <img src={'./assets/logo.png'} css={{ maxHeight: '100%' }} />
+                    <img src={Logo} css={{ maxHeight: '100%' }} />
                 </div>
             </div>
             <div css={{ display: 'flex', alignItems: 'center' }}>

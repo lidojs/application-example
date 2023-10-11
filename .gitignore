@@ -40,3 +40,5 @@ debug.log
 
 # Sentry Auth Token
 .env.sentry-build-plugin
+
+~/Library
