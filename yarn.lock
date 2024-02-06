@@ -813,30 +813,35 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lidojs/color-picker@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lidojs/color-picker/-/color-picker-1.0.0.tgz#c15a28d9364bcbaab52ac1d933dd3c6c0a944eb7"
-  integrity sha512-LSEE9MZ67v5DZidqR9gcus96WpV7bpqtglBxZJCDvr56GnDrQmpX/wpLLnfZdH0hheQF08TB4+nOhBx6pSr5FA==
+"@lidojs/color-picker@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@lidojs/color-picker/-/color-picker-1.0.1.tgz#cf90dba66ff6a128313272bbe1b3766e07913451"
+  integrity sha512-dkXo3hrl+997Ne3rHJC5XRbEjGFGbY+PCBWcUHsZQyA1OZII65LjPRTzFWkkTXQrAc0bDhDTXzOZfe/209pX3A==
 
-"@lidojs/design-core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lidojs/design-core/-/design-core-1.0.0.tgz#94d380f4e6cdbef54fa2d38d3a8d2a7dfa28bd14"
-  integrity sha512-hs4gilVFknKD+zwdjFzd0SIG03wde6qT3ktRv8XqnGXqse0MqJE669M4VjkI14VYiFJBseT2RilL/V7G+8/ySA==
+"@lidojs/design-core@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lidojs/design-core/-/design-core-1.2.0.tgz#87af13f983522b0f708c397b52c114caf70de7b0"
+  integrity sha512-3xZ94ORQN+SX9ABl/Fn29psSc4BrACoEjAFFYfXaeFf8q2zH3U+PLP0GVaYnumoByuocQe8K0TEOXK920SeNRA==
 
-"@lidojs/design-editor@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lidojs/design-editor/-/design-editor-1.0.0.tgz#11c6b9285f65f1a270c0940dbe914d2539175579"
-  integrity sha512-+ZFMQilq/O8vCR1/UAlre1HqxzRdvbtNX6wzSmeEfuWV4GbaxqzDf/ieM+f0B6Xw2D1jOS0DTHqq0Hz5787b/w==
+"@lidojs/design-editor@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@lidojs/design-editor/-/design-editor-1.2.1.tgz#21624585574dd670539fff12d1cf30860c19d7a1"
+  integrity sha512-iF75dbEpUPwYcziLGkmYei2dqKEvWBLp199ocKfeYCRLwBQxzQDkmEPX6xRel5hzlhDm4JFGD0bZ9RQ2WNHa5w==
 
-"@lidojs/design-screen@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lidojs/design-screen/-/design-screen-1.0.0.tgz#5cf39bdfc0f354ec5133848ed5d7dfefdeb9fdee"
-  integrity sha512-7XwTLQj2xoJxmPG5SMQdcsyZfhVA1SEcM57hk6luMncrtIalIc2hYH48a5lOoJAj7TqySaOPtDvYaWGTV8bjIA==
+"@lidojs/design-layers@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@lidojs/design-layers/-/design-layers-1.2.1.tgz#8c4f291b29c0385854465b767c8534ccdfb2be35"
+  integrity sha512-vO+FsEoZmM/NqsnT9Yo5krY7sUHaUZA0d1zX9YMQCRUv7GwKgTQeJ8jCiFZ1peDkEEwZ3Mk8VgIx+Qky71jplQ==
 
-"@lidojs/design-utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@lidojs/design-utils/-/design-utils-1.0.0.tgz#e77d9b961e68c5acc5b8ecdce6fd1dff2dae2f54"
-  integrity sha512-Tqir/0Qstd1GzM2sMEhvqeosexBcftZ7OP9ggI4T5Zg2dUUWNdjiaWgWfxl9Mp/gC/RArXyySWOwJ6TgdF0mDw==
+"@lidojs/design-screen@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lidojs/design-screen/-/design-screen-1.2.0.tgz#aaa84586986299e2c236d4340765232af280de73"
+  integrity sha512-DP9x3lZG61jPiEeIM0m04s9kmIGsJParioRoW4YX3h8k75zYRqfa/T4OJkcBA1hQgIeVYsrTzgplFupEk73VAA==
+
+"@lidojs/design-utils@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lidojs/design-utils/-/design-utils-1.2.0.tgz#a2575ad1de947812512f9acc04a881b416b370fc"
+  integrity sha512-ejXVgmMQOT9S6WnZm0iJlqXj4j47KcnURo3PvnMVEVmUqHRlUM4J7FzDOZDD8K7yu/BTQWxlk6ImdXyykWAFnA==
 
 "@microsoft/api-extractor-model@7.28.2":
   version "7.28.2"
